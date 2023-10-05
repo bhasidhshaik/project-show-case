@@ -3,19 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS Files/style.css">
     <link id="loader" rel="stylesheet" href="CSS Files/loader.css">
     <title>Home-RUCE Project ShowCase</title>
     <link rel="shortcut icon" href="Images/main logo.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/9aa2ea7f69.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!-- <script>
-      setTimeout(function(){
-          $("#loader").attr("href","style.css");
-      },2000);
-          </script> -->
           <script>
             function performTask() {
-    $("#loader").attr("href","CSS Files/style.css");
+    $('#loader').remove();
     console.log("Loading Styles Are Applied ");
   }
   
