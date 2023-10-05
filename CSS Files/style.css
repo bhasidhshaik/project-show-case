@@ -371,7 +371,7 @@ i#toggle-menu{
 }
 @media (max-width:850px){
   .logo img{
-      width: 200px;
+      width: 220px;
   }
   
   .main-head-container{
@@ -381,7 +381,7 @@ i#toggle-menu{
       font-size: 1.7em;
   }
   .main-heading{
-      margin: 80px 20px 0px;
+      margin: 40px 20px 0px;
       max-width: 100% !important;
   }
   .heading-and-side-image-container{
